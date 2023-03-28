@@ -15,6 +15,7 @@ for tentativa in range(1, numero_tentativas + 1):
         print(
             f'Parabéns !!!, você conseguiu acertar em {tentativa} tentativas!')
         break
+      
     elif numero_chutado > numero_descoberto:
         print(
             'VOCÊ ERROU!!! tente um número menor!')
@@ -27,4 +28,6 @@ for tentativa in range(1, numero_tentativas + 1):
         print(
             f'Você tem {numero_tentativas - tentativa} tentativas...'
         )
-        print(f"Infelizmente você perdeu, o numero era {numero_descoberto}.")
+
+if numero_tentativas : 3
+print(f"infelizente você perdeu, o número era {numero_descoberto}.")
