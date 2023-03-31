@@ -10,10 +10,11 @@ numero_tentativas = 3
 
 for tentativa in range(1, numero_tentativas + 1):
     numero_chutado = int(input('Escolha um número de 1 à 10: '))
-
+    
     if numero_chutado == numero_descoberto:
         print(
             f'Parabéns !!!, você conseguiu acertar em {tentativa} tentativas!')
+        input ()
         break
       
     elif numero_chutado > numero_descoberto:
@@ -30,4 +31,4 @@ for tentativa in range(1, numero_tentativas + 1):
         )
 
 if numero_tentativas : 3
-print(f"infelizente você perdeu, o número era {numero_descoberto}.")
+print(f"infelizmente você perdeu, o número era {numero_descoberto}.")
